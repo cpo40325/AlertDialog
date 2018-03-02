@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lvLl"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgList"
+        android:layout_width="240dp"
+        android:layout_height="115dp"
+        android:layout_weight="1"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="175dp"
+        android:layout_height="114dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="餐點"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tvFav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="口味"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvB"
+        android:layout_width="198dp"
+        android:layout_height="103dp"
+        android:layout_weight="1"
+        android:text="價錢"
+        android:textSize="30sp" />
+
+</LinearLayout>
